@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "one",
+    "price": "345",
+    "image": "https://i.ibb.co/qRgDYZM/banner.webp",
+    "description": "one",
+    "quantity": "",
+    "supplier": "one"
+  },
+  {
+    "id": 1,
+    "name": "two",
+    "price": "200",
+    "image": "https://i.ibb.co/qRgDYZM/banner.webp",
+    "description": "twooooo",
+    "quantity": "",
+    "supplier": "two man"
+  },
+  {
+    "id": 1,
+    "name": "three",
+    "price": "300",
+    "image": "https://i.ibb.co/qRgDYZM/banner.webp",
+    "description": "threeeeee",
+    "quantity": "",
+    "supplier": "three man"
+  },
+  {
+    "id": 1,
+    "name": "four",
+    "price": "400",
+    "image": "https://i.ibb.co/qRgDYZM/banner.webp",
+    "description": "fourrrrrr",
+    "quantity": "",
+    "supplier": "four man"
+  },
+  {
+    "id": 1,
+    "name": "five",
+    "price": "500",
+    "image": "https://i.ibb.co/qRgDYZM/banner.webp",
+    "description": "fiveeeee",
+    "quantity": "",
+    "supplier": "five man"
+  },
+  {
+    "id": 1,
+    "name": "six",
+    "price": "600",
+    "image": "https://i.ibb.co/qRgDYZM/banner.webp",
+    "description": "sixxxxx",
+    "quantity": "",
+    "supplier": "six man"
+  }
+]
