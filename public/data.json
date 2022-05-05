@@ -52,5 +52,23 @@
     "description": "sixxxxx",
     "quantity": "",
     "supplier": "six man"
+  },
+  {
+    "id": 1,
+    "name": "seven",
+    "price": "700",
+    "image": "https://i.ibb.co/qRgDYZM/banner.webp",
+    "description": "sevennnnnn",
+    "quantity": "",
+    "supplier": "seven man"
+  },
+  {
+    "id": 1,
+    "name": "eight",
+    "price": "800",
+    "image": "https://i.ibb.co/qRgDYZM/banner.webp",
+    "description": "eightttttt",
+    "quantity": "",
+    "supplier": "eight man"
   }
 ]
