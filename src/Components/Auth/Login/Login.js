@@ -6,6 +6,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import { auth } from '../../../Firebase/Firebase.init';
 import Loading from '../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -72,7 +73,7 @@ const Login = () => {
           </Button>
         </Form>
      {errorElement}
-      <p>New to i-photo? <Link to='/register' className="text-primary text-decoration-none" onClick={navigateRegister}>Please Register </Link></p>
+      <p>New to Store-House? <Link to='/register' className="text-primary text-decoration-none" onClick={navigateRegister}>Please Register </Link></p>
       <p>Forget Password? <button  className=" text-primary text-decoration-none" onClick={resetPassword}>Reset Password  </button></p>
         <SocialLogin> </SocialLogin>
         <ToastContainer />

@@ -20,7 +20,7 @@ const Inventories = () => {
                 ></Inventory>)
             }
             </div>
-            <Link to='inventory'  className='flex justify-center items-center  w-64 mx-auto bg-amber-500 p-3 text-xl text-black no-underline mt-16 mb-24 '> Manage Inventories </Link>
+            <Link to='/inventory'  className='flex justify-center items-center  w-64 mx-auto bg-amber-500 p-3 text-xl text-black no-underline mt-16 mb-24 '> Manage Inventories </Link>
         </div>
     );
 };
