@@ -15,7 +15,7 @@ const Inventories = () => {
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 mx-auto'>
             {
                 inventories.slice(0,6).map(inventory => <Inventory
-                key={inventory.id}
+                key={inventory._id}
                 inventory={inventory}
                 ></Inventory>)
             }
