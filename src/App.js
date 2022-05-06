@@ -1,6 +1,8 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AddItem from './Components/AddItem/AddItem';
+
 import Login from './Components/Auth/Login/Login';
 import Register from './Components/Auth/Register/Register';
 import RequireAuth from './Components/Auth/RequireAuth/RequireAuth';
@@ -33,6 +35,12 @@ function App() {
        </RequireAuth>
      }
      ></Route>    
+     <Route path='additem' element={
+       <RequireAuth>
+         <AddItem> </AddItem>
+       </RequireAuth>
+     }
+     ></Route>
    </Routes>
    </>
 
