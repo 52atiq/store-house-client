@@ -15,6 +15,7 @@ import ManageItems from './Components/ManageItems/ManageItems';
 import MyItem from './Components/MyItem/MyItem';
 import Header from './Components/Shared/Header/Header';
 import NotFound from './Components/Shared/NotFound/NotFound';
+// import SmartWay from './Components/SmartWay/SmartWay';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
        </RequireAuth>
      }
      ></Route>
+     {/* <Route path='smartway' element={<SmartWay> </SmartWay>}></Route> */}
       <Route path='*' element={<NotFound></NotFound>}></Route>
    </Routes>
   
