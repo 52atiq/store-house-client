@@ -15,13 +15,9 @@ const InventoryDetail = () => {
 
     return (
         <div className='container'>
-            <h2>Welcome to inventory detail : {inventory.name}</h2>
+            <h2 className='text-center m-7'> Inventory Detail : {inventory.name}</h2>
            
-            {/* <div className='text-center'>
-                <Link to="/inventory">
-                    <button className='btn btn-primary'>Delivered</button>
-                </Link>
-            </div> */}
+           
            
             <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mb-10 gap-6 border-2 p-3'>
                 <div>
@@ -37,7 +33,13 @@ const InventoryDetail = () => {
             <p>Supplier:{inventory.supplier}</p>
             <p>Description:{inventory.description}</p>
             <p>Sold:</p>
+            <div className='grid'>
             <button className='btn btn-primary'>Delivered</button>
+            </div>
+            <div className='gap-4 mt-2 grid '>
+                <input className='border-2 border-yellow-400 mx-auto w-[530px] h-9 p-1 mt-1 ' placeholder='type restock amount' type="text" />
+                <button className='btn btn-warning '>Restock </button>
+            </div>
                 </div>
             </div>
         </div>
