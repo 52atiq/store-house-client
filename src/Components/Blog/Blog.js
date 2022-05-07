@@ -46,7 +46,7 @@ const Blog = () => {
                 Nodejs is a Javascript  engine that you can write any application you want . It runs your Javascript code. Most commonly, it is used to build servers that can respond to web requests</p>
              </div>
              <div className='container mt-5'>
-                 <h2>Q3: Differences between sql and nosql databases</h2>
+                 <h2 className='mb-8'>Q3: Differences between sql and nosql databases</h2>
                  <Table striped bordered hover>
   <thead>
     <tr>
@@ -86,8 +86,8 @@ const Blog = () => {
   </tbody>
 </Table>
              </div>
-             <div className='container mt-5'> 
-                 <h2>Q4: What is the purpose of jwt and how does it work</h2>
+             <div className='container mt-5 mb-10'> 
+                 <h2 className='mt-5 mb-8'>Q4: What is the purpose of jwt and how does it work</h2>
                  <p>JSON Web Token, is an open standard used to share security information between two parties a client and a server. Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued</p>
              </div>
         </div>

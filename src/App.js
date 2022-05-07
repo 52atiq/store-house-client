@@ -12,6 +12,7 @@ import ManageInventory from './Components/Inventory/ManageInventory/ManageInvent
 
 import InventoryDetail from './Components/InventoryDetail/InventoryDetail';
 import ManageItems from './Components/ManageItems/ManageItems';
+import MyItem from './Components/MyItem/MyItem';
 import Header from './Components/Shared/Header/Header';
 import NotFound from './Components/Shared/NotFound/NotFound';
 
@@ -46,6 +47,12 @@ function App() {
      <Route path='/manageitem' element={
        <RequireAuth>
          <ManageItems> </ManageItems>
+       </RequireAuth>
+     }
+     ></Route>
+     <Route path='/myitem' element={
+       <RequireAuth>
+         <MyItem> </MyItem>
        </RequireAuth>
      }
      ></Route>

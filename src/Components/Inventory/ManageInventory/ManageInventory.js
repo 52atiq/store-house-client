@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import useInventories from '../../../hooks/useInventories';
 
 const ManageInventory = () => {
@@ -24,10 +24,10 @@ const ManageInventory = () => {
  
     return ( 
     
-        <div >
-           
+        <div className='container mt-6'>
+            <Link to='/additem'  className='  justify-center m-3  bg-green-600 p-2 text-xl text-white no-underline'> Add New Item </Link>
             <div> 
-                <h2 className='text-center'>All Inventory:  </h2>
+                <h2 className='text-center mb-3'>Manage Inventory:  </h2>
              </div>
             <div className='container grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1'>
             {
