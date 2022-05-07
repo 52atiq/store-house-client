@@ -12,11 +12,12 @@ const ManageInventory = () => {
             {/* <h2>Details of inventory </h2> */}
             {
                 inventories.map(inventory =>
-                    <div className='grid gap-3 border-4'>
-                        <p>Name:{inventory.name}</p>
-                        <p>Price:{inventory.price}</p>
-                        <p>Supplier:{inventory.supplier}</p>
-                        <p>Name:{inventory.name}</p>
+                    <div className='grid gap-3 border-4 line'>
+                        <p className='leading-3'>Name:{inventory.name}</p>
+                        <p  className='leading-3'>Price:{inventory.price}</p>
+                        <p  className='leading-3'>Supplier:{inventory.supplier}</p>
+                        <p  className='leading-3'>Quantity:{inventory.quantity}</p>
+                        <p  className='leading-3'>Description: {inventory.description}</p>
                        <button className='btn btn-danger'> Delete </button>
                     </div>
                     )
