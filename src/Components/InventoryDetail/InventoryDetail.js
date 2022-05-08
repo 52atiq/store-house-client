@@ -7,15 +7,17 @@ const InventoryDetail = () => {
     const [inventory, setInventory] = useState({});
 
     useEffect( () =>{
-        const url = `http://localhost:5000/inventory/${inventoryId}`
+        const url = `https://murmuring-shore-75057.herokuapp.com/inventory/${inventoryId}`
         fetch(url)
         .then(res => res.json())
         .then(data => setInventory(data))
     },[])
 
+    // const handleDelivery = ()
+
     return (
         <div className='container m-20'>
-            <h2 className='text-center m-7'> Inventory Detail : {inventory.name}</h2>
+            <h2 className='text-center m-7'>  {inventory.name}</h2>
            
            
            
@@ -27,8 +29,8 @@ const InventoryDetail = () => {
                 <div>
                   
                     <p>ID: {inventoryId}</p>
-            <p> Name: {inventory.name}</p>
-            <p>Price: {inventory.price}</p>
+            <p>  {inventory.name}</p>
+            <p>Price: ${inventory.price}</p>
             <p>Quantity:{inventory.quantity}</p>
             <p>Supplier:{inventory.supplier}</p>
             <p>Description:{inventory.description}</p>

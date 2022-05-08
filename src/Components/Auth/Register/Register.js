@@ -43,7 +43,7 @@ const Register = () => {
         // }
     }
     return (
-        <div className='m-20'>
+        <div className='m-20 h-[100vh]'>
         <div className='register-form '>
            <h2 className='text-center'> Register </h2>
               

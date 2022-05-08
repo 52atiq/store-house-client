@@ -22,7 +22,7 @@ const SocialLogin = () => {
     }
 
     if(user || userGithub){
-      navigate('/home')
+      navigate('/')
     }
     return (
         <div>

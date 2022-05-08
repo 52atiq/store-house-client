@@ -5,7 +5,7 @@ const AddItem = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
         console.log(data);
-        const url = `http://localhost:5000/inventory`;
+        const url = `https://murmuring-shore-75057.herokuapp.com/inventory`;
         fetch(url , {
             method: 'POST',
             headers: {
@@ -30,7 +30,7 @@ const AddItem = () => {
       <input placeholder='Quantity' className='border-2' type="number" {...register("quantity")} />
       <input placeholder='Supplier' className='border-2' {...register("supplier")} />
       <textarea placeholder='Description' className='border-2' {...register("description")} />
-      <input className='border-2' type="submit" value="Add Item" />
+      <input className='border-4 h-11 bg-purple-800 text-white font-bold' type="submit" value="Add Item" />
     </form>
             
         </div>

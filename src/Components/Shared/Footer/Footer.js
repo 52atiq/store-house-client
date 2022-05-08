@@ -7,8 +7,9 @@ import linkedin from '../../../assets/social/linkedin2.png'
 import youtube from '../../../assets/social/youtube.png'
 const Footer = () => {
     return (
+
         <div>
-            <div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 bg-blue-800 gap-10 p-7'>
+            <div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 bg-blue-800 gap-10 p-7 mt-52'>
                 <div className='text-white leading-none'>
                    
                  <div><img className='h-36 w-64 mb-4' src={logo} alt="" /></div>
