@@ -3,7 +3,7 @@ import { Table } from 'react-bootstrap';
 
 const Blog = () => {
     return (
-        <div>
+        <div className='m-28'>
              <div className='container'>
                  <h2 className='mt-3 mb-3'>Q1:Difference between javascript and javascript </h2>
                  <Table striped bordered hover>

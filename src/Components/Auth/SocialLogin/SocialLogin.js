@@ -42,12 +42,14 @@ const SocialLogin = () => {
                <span className="text-white">  Google Sign In </span>
             </button>
             </div>
-            <button
-            onClick={ () => signInWithGithub()}
-             className="btn btn-warning w-50 d-block mx-auto">
+
+            {/* <button */}
+            {/* onClick={ () => signInWithGithub()} */}
+             {/* className="btn btn-warning w-50 d-block mx-auto"> */}
                {/* <img  src={github} alt="" /> */}
-               <span className="px-2 text-white">  Github Sign In </span>
-            </button>
+               {/* <span className="px-2 text-white">  Github Sign In </span> */}
+            {/* </button> */}
+            
         </div>
       </div>
     );

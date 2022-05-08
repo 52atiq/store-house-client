@@ -24,7 +24,7 @@ const ManageInventory = () => {
  
     return ( 
     
-        <div className='container mt-6'>
+        <div className='container m-20'>
             <Link to='/additem'  className='  justify-center m-3  bg-green-600 p-2 text-xl text-white no-underline'> Add New Item </Link>
             <div> 
                 <h2 className='text-center mb-3'>Manage Inventory:  </h2>

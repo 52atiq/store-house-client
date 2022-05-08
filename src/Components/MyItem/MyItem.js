@@ -20,7 +20,7 @@ const MyItem = () => {
         }
     }
     return (
-        <div className='container mt-6'>
+        <div className='container m-20'>
        
         <div> 
             <h2 className='text-center mb-3'>My Items:  </h2>

@@ -13,12 +13,7 @@ const firebaseConfig = {
   messagingSenderId:process.env.REACT_APP_messagingSenderId,
   appId:process.env.REACT_APP_appId,
 
-//   apiKey: "AIzaSyATrAwmCprTWGu9yHeWTQ7TEHhwLQlooaA",
-// authDomain: "electronics-87081.firebaseapp.com",
-// projectId: "electronics-87081",
-// storageBucket: "electronics-87081.appspot.com",
-// messagingSenderId: "46557956348",
-// appId: "1:46557956348:web:0cc12912f079ae3ef6af79"
+
 };
 
 // Initialize Firebase
@@ -29,9 +24,3 @@ export const auth = getAuth(app);
 
 export default app;
 
-// apiKey: "AIzaSyATrAwmCprTWGu9yHeWTQ7TEHhwLQlooaA",
-// authDomain: "electronics-87081.firebaseapp.com",
-// projectId: "electronics-87081",
-// storageBucket: "electronics-87081.appspot.com",
-// messagingSenderId: "46557956348",
-// appId: "1:46557956348:web:0cc12912f079ae3ef6af79"

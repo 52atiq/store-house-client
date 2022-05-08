@@ -21,8 +21,8 @@ const AddItem = () => {
     }
 
     return (
-        <div className='mx-auto w-50'>
-            <h2>Please add a item</h2>
+        <div className='mx-auto w-50 m-28'>
+            <h2 className='text-center'>Please add a item</h2>
      <form className='flex flex-column gap-1' onSubmit={handleSubmit(onSubmit)}>
       <input placeholder='Name' className='border-2' {...register("name")} />
       <input placeholder='Photo URL' className='border-2' type="text" {...register("image")} />

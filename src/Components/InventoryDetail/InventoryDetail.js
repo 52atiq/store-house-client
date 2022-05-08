@@ -14,7 +14,7 @@ const InventoryDetail = () => {
     },[])
 
     return (
-        <div className='container'>
+        <div className='container m-20'>
             <h2 className='text-center m-7'> Inventory Detail : {inventory.name}</h2>
            
            
