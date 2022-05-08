@@ -13,7 +13,27 @@ const InventoryDetail = () => {
         .then(data => setInventory(data))
     },[])
 
-    // const handleDelivery = ()
+    const handleDelivery = () =>{
+        const quantity = (inventory.quantity) -1 ;
+        const newQuantity= quantity;
+        // send data to the server
+        console.log('hi atiq');
+        // const url = `https://murmuring-shore-75057.herokuapp.com/inventory/${inventoryId}`
+        const url = `http://localhost:5000/inventory/${inventoryId}`
+        fetch(url, {
+            method: 'PUT',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(newQuantity)
+        })
+        .then(res => res.json())
+        .then(data =>{
+            console.log('success', data);
+            alert('item added successfully!!!');
+           
+        })
+    }
 
     return (
         <div className='container m-20'>
@@ -36,7 +56,7 @@ const InventoryDetail = () => {
             <p>Description:{inventory.description}</p>
             <p>Sold:</p>
             <div className='grid'>
-            <button className='btn btn-primary'>Delivered</button>
+            <button className='btn btn-primary' onClick={() => handleDelivery()}>Delivered</button>
             </div>
             <div className='gap-4 mt-2 grid '>
                 <input className='border-2 border-yellow-400 mx-auto w-[530px] h-9 p-1 mt-1 ' placeholder='type restock amount' type="text" />
