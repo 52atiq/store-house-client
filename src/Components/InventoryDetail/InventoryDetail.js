@@ -18,8 +18,8 @@ const InventoryDetail = () => {
         const newQuantity= quantity;
         // send data to the server
         console.log('hi atiq');
-        // const url = `https://murmuring-shore-75057.herokuapp.com/inventory/${inventoryId}`
-        const url = `http://localhost:5000/inventory/${inventoryId}`
+        const url = `https://murmuring-shore-75057.herokuapp.com/inventory/${inventoryId}`
+        // const url = `http://localhost:5000/inventory/${inventoryId}`
         fetch(url, {
             method: 'PUT',
             headers: {

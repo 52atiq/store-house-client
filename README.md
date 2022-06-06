@@ -3,6 +3,12 @@ STORE-HOUSE
 Live link:  https://electronics-87081.web.app
 
 
+clint: https://github.com/52atiq/store-house-client
+
+
+server:https://github.com/52atiq/store-house-server
+
+
 <ul> 
 <li> This Website about Warehouse management system </li>
 <li> This website used as frontend react js and backend used nodejs and Mongodb database </li>
